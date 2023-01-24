@@ -1,0 +1,52 @@
+.containner {
+  background-color: #181818;
+  height: 7vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.containner img {
+  width: 3.472vw;
+  height: auto;
+}
+.navright {
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+.navright img {
+  width: 1.7vw;
+  height: fit-content;
+  margin: 0 10px 0 12px;
+}
+
+.navright img:last-child {
+  width: 2.2vw;
+  cursor: pointer;
+}
+.navright .btn {
+  display: flex;
+  width: auto;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    #fbc2eb 0%,
+    #a6c1ee 51%,
+    #fbc2eb 100%
+  );
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 3px #eee;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2px 12px 5px 0;
+  cursor: pointer;
+}
+
+.btn p {
+  font-size: 1.111vw;
+  color: #181818;
+  font-weight: 700;
+}
