@@ -1,0 +1,35 @@
+.containner {
+  background-color: #181818;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+.right_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+  /* border: 1px salmon solid; */
+  height: 40vw;
+  position: relative;
+  border-radius: 0px 0px 360px 360px;
+}
+.right_section img {
+  width: 26vw;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 10px 10px 160px 160px;
+  z-index: 2;
+  box-shadow: 0 0 3px rgb(0, 152, 223);
+}
+.halfcircle {
+  background: linear-gradient(225deg, #0dccf2 0.78%, #aa00ff 99.22%);
+
+  width: 100%;
+  height: 50%;
+  border-radius: 0px 0px 360px 360px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}

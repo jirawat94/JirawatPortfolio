@@ -1,6 +1,6 @@
 .containner {
   background-color: #181818;
-  height: 7vw;
+  height: 12vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -29,16 +29,11 @@
   display: flex;
   width: auto;
   align-items: center;
-  background-image: linear-gradient(
-    to right,
-    #fbc2eb 0%,
-    #a6c1ee 51%,
-    #fbc2eb 100%
-  );
+  background: linear-gradient(225deg, #0dccf2 0.78%, #aa00ff 99.22%);
   transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  box-shadow: 0 0 3px #eee;
+  background-size: 100% auto;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 3px rgb(0, 152, 223);
   border-radius: 5px;
   text-align: center;
   padding: 2px 12px 5px 0;
