@@ -33,7 +33,7 @@ function Herosection() {
         <motion.div
           className={styles.halfcircle}
           initial={{ rotate: 15, y: -200, opacity: 0 }}
-          whileHover={{ rotate: 15, transition: { duration: 1 }, scale: 1.1 }}
+          whileHover={{ rotate: 15, transition: { duration: 1 } }}
           animate={{ y: 0, opacity: 1, rotate: -15 }}
           transition={{ type: "spring", bounce: 0.6, duration: 2 }}
         ></motion.div>
