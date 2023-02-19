@@ -1,0 +1,9 @@
+.Skillsection {
+  background-color: rgb(250, 213, 3);
+}
+.Skillsection ul li {
+  list-style: disc;
+}
+.enoty {
+  height: 900px;
+}
